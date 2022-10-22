@@ -1,0 +1,807 @@
+* {
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .container {
+        max-width: 960px;
+    }
+
+}
+
+@font-face {
+    src: url(../fonts/FFGoodProXCond-Bold.ttf);
+    font-family: FFGoodProXCond-Bold;
+}
+
+.Navigation {
+    margin-bottom: -80px;
+    margin-left: 130px;
+    margin-right: 100px;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+
+.Navigation ul li {
+    padding-top: 15px;
+    display: inline-block;
+    list-style: none;
+}
+
+.Navigation ul a {
+    color: rgb(20, 12, 8);
+    margin: 2px;
+    text-decoration: none;
+    position: relative;
+    font-family: FFGoodProXCond-Bold;
+}
+
+.Navigation h1 {
+    color: rgb(20, 12, 8);
+    font-family: FFGoodProXCond-Bold;
+}
+
+
+.Container01 {
+    justify-content: center;
+    display: flex;  
+    flex-wrap: wrap;
+}
+
+.Box01 {
+    background-color: white;
+    width: 100vw;
+}
+
+.Inner-Box01 {
+    height: 500px;
+    margin-bottom: 15px;
+    background-size: cover;
+}
+
+.Image01 {
+    background-image: url(../images/atf-image.jpg);
+    background-size: cover;
+}
+
+.Box01 span {
+    color: rgba(10, 236, 66, 0.61);
+}
+
+.Box01 h2 {
+    color: rgb(25, 13, 8);
+    user-select: none;
+    line-height: .8em;
+    text-transform: uppercase;
+    padding: 90px;
+    font-size: 70px;
+    opacity: 85%;
+    font-family: FFGoodProXCond-Bold;
+}
+
+.Box01 p {
+    color: rgb(80, 43, 25);
+    font-size:  12px;
+    margin-top: -145px;
+    margin-left: 90px;
+    font-family: sans-serif;
+}
+
+.Box01 a {
+    background-color: rgb(39, 27, 21);
+    color: white;
+    text-decoration: none;
+    padding: 15px 15px;
+    margin-left: 90px;
+    font-weight: 700;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.Container02 {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Inner-Box02 {
+    height: 250px;
+    background-size: cover;
+}
+
+.Image02 {
+    width: 500px;
+    margin: 6px;
+    background-image: url(../images/merchandise1.jpg);
+}
+
+.Box02 p{
+    color: white;
+    text-transform: uppercase;
+    padding-top: 10px;
+    margin-left: 55px;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.Box02 a{
+    color: white;
+    padding: 15px 15px;
+    margin-left: 40px;
+    font-size: 12px;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.Image03 {
+    width: 500px;
+    margin: 6px;
+    background-image: url(../images/merchandise2.jpg);
+}
+
+.Box03 p{
+    color: white;
+    text-transform: uppercase;
+    padding-top: 10px;
+    margin-left: 55px;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.Box03 a{
+    color: white;
+    padding: 15px 15px;
+    margin-left: 40px;
+    font-size: 12px;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.Text01 {
+    color: rgb(165, 121, 56);
+    margin-top: 80px;
+    margin-bottom: -30px;
+    text-align: center;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Header2-Text {
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: FFGoodProXCond-Bold;
+}
+
+.Header1 {
+    background: rgb(165, 121, 56);
+    padding-top: -30px;
+    height: 3px;
+    border-width: 0px;
+    margin-top: -20px;
+    margin-left: 600px;
+    margin-right: 600px;
+    margin-bottom: 50px;
+}
+
+.Container03 {
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Image-Box01 p {
+    padding-left: 5px;
+    margin-top: -5px;
+    font-size: 20px;
+    font-family: FFGoodProXCond-Bold;
+}
+
+.Span01 {
+    color: rgb(195, 142, 63);
+}
+
+.Inner-Box03 {
+    margin-bottom: 15px;
+    height: 245px;
+    margin-bottom: 15px;
+    background-size: cover;
+}
+
+.Image04 {
+    width: 245px;
+    margin: 5px;
+    background-image: url(../images/product1.jpg);
+}
+
+.Image05 {
+    width: 245px;
+    margin: 5px;
+    background-image: url(../images/product2.jpg);
+}
+
+.Image06 {
+    width: 245px;
+    margin: 5px;
+    background-image: url(../images/product3.jpg);
+}
+
+.Image07 {
+    width: 245px;
+    margin: 5px;
+    background-image: url(../images/product4.jpg);
+}
+
+.Image08 {
+    width: 245px;
+    margin: 5px;
+    background-image: url(../images/product5.jpg);
+}
+
+.Image09 {
+    width: 245px;
+    margin: 5px;
+    background-image: url(../images/product6.jpg);
+}
+
+.Image10 {
+    width: 245px;
+    margin: 5px;
+    background-image: url(../images/product7.jpg);
+}
+
+.Image11 {
+    width: 245px;
+    margin: 5px;
+    background-image: url(../images/product8.jpg);
+}
+
+.Container04 {
+    align-items: center;
+}
+
+.Box04 {
+    width: 100%;
+    height: 100%;
+}
+
+.Inner-Box04 {
+    position: 50;
+    padding: 50px;
+}
+
+.Image12 {
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    margin-left: 140px;
+    margin-right: 140px;
+}
+
+.Box04 p {
+    color: rgb(190, 149, 89);
+    margin-bottom: -50px;
+    text-align: center;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Box04 h2 {
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-family: FFGoodProXCond-Bold;
+}
+
+.Text {
+    text-align: center;
+}
+
+.Box04 a {
+    background-color: rgb(255, 255, 255);
+    color: rgb(161, 124, 69);
+    padding: 15px 15px;
+    text-decoration: none;
+    width: 80px;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+.Text02 {
+    color: rgb(165, 121, 56);
+    margin-top: 80px;
+    margin-bottom: -30px;
+    text-align: center;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Header2-Text02 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 25px;
+    font-family: FFGoodProXCond-Bold;
+}
+
+.Header2 {
+    background: rgb(165, 121, 56);
+    padding-top: -30px;
+    height: 3px;
+    margin-top: -20px;
+    margin-left: 600px;
+    margin-right: 600px;
+    margin-bottom: 50px;
+    border-width: 0px;
+}
+
+.Container05 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 40px;
+}
+
+.Image-Box02 p {
+    padding-left: 5px;
+    margin-top: -5px;
+    font-size: 20px;
+    font-family: FFGoodProXCond-Bold;
+}
+
+.Span02 {
+    color: rgb(218, 159, 69);
+}
+
+.Inner-Box05 {
+    margin-bottom: 15px;
+    height: 245px;
+    margin-bottom: 15px;
+    background-size: cover;
+}
+
+.Header4 {
+    background: rgb(165, 121, 56);
+    opacity: 0;
+    padding-top: -30px;
+    height: 3px;
+    border-width: 0px;
+    margin-top: -20px;
+    margin-left: 10000px;
+    margin-right: 10000px;
+    margin-bottom: 50px;
+}
+
+.Image13 {
+    width: 245px;
+    margin: 5px;
+    background-image: url(../images/product1.jpg);
+}
+
+.Image14 {
+    width: 245px;
+    margin: 5px;
+    background-image: url(../images/product2.jpg);
+}
+
+.Image15 {
+    width: 245px;
+    margin: 5px;
+    background-image: url(../images/product3.jpg);
+}
+
+.Image16 {
+    width: 245px;
+    margin: 5px;
+    background-image: url(../images/product4.jpg);
+}
+
+.Container06 {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Inner-Box06 {
+    height: 250px;
+    background-size: cover;
+}
+
+.Image17 {
+    width: 500px;
+    margin: 6px;
+    background-image: url(../images/merchandise3.jpg);
+}
+
+.Box05 p{
+    color: white;
+    text-transform: uppercase;
+    padding-top: 35px;
+    margin-left: 55px;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.Box05 a{
+    color: white;
+    text-decoration: none;
+    padding: 15px 15px;
+    margin-left: 40px;
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.Image18 {
+    width: 500px;
+    margin: 6px;
+    background-image: url(../images/merchandise4.jpg);
+}
+
+.Box06 p{
+    color: white;
+    text-transform: uppercase;
+    padding-top: 35px;
+    margin-left: 55px;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.Box06 a{
+    color: white;
+    text-decoration: none;
+    padding: 15px 15px;
+    margin-left: 40px;
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.Image19 {
+    width: 500px;
+    margin: 6px;
+    background-image: url(../images/merchandise5.jpg);
+}
+
+.Box07 p{
+    color: white;
+    text-transform: uppercase;
+    padding-top: 35px;
+    margin-left: 55px;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.Box07 a{
+    color: white;
+    text-decoration: none;
+    padding: 15px 15px;
+    margin-left: 40px;
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.Image20 {
+    width: 500px;
+    margin: 6px;
+    background-image: url(../images/merchandise6.jpg);
+}
+
+.Box08 p{
+    color: white;
+    text-transform: uppercase;
+    padding-top: 35px;
+    margin-left: 55px;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.Box08 a{
+    color: white;
+    text-decoration: none;
+    padding: 15px 15px;
+    margin-left: 40px;
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.Header4 {
+    background: rgb(165, 121, 56);
+    opacity: 0;
+    padding-top: -30px;
+    height: 3px;
+    border-width: 0px;
+    margin-top: -20px;
+    margin-left: 10000px;
+    margin-right: 10000px;
+    margin-bottom: 50px;
+}
+
+.Text03 {
+    color: rgb(165, 121, 56);
+    opacity: 0;
+    margin-top: -40px;
+    margin-bottom: -30px;
+    text-align: center;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Header2-Text03 {
+    text-transform: uppercase;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 25px;
+    font-family: FFGoodProXCond-Bold;
+}
+
+.Header5 {
+    border-top: 3px solid rgb(165, 121, 56);
+    margin-top: -15px;
+    margin-left: 45%;
+    margin-right: 45%;
+    margin-bottom: 5%;
+}
+
+.Header3 {
+    border-top: 3px solid rgb(165, 121, 56);
+    margin-left: 550px;
+    margin-right: 550px;
+    opacity: 0;
+}
+
+.Form {
+    margin-top: 10px;
+    display: flex;
+}
+
+.Inner-Form {
+    background-color: rgb(240, 240, 240);
+    width: 100%;
+    padding: 30px 25px;
+}
+
+.pnormal {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+textarea {
+    border: none;
+    resize: vertical;
+}
+
+select {
+    background-color: rgb(233, 233, 233);
+    border: none;
+    width: 100%;
+    padding: .4rem;
+}
+
+.Inner-Form label {
+    display: block;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.dandn {
+    margin-top: -5px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Inner input{
+    width: 460px;
+}
+
+.Inner-Form input{
+    border: none;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.Form02 {
+    margin-left: 15px;
+}
+
+.Inner-Form01{
+    background-color: rgb(240, 240, 240);
+    width: 100%;
+    padding: 35px 35px;
+}
+
+.Inner-Form01 p {
+    font-family: FFGoodProXCond-Bold;
+}
+
+.Inner-Form01 label {
+    color: black;
+    display: block;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Inner-Form01 input {
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.Inner-Form01 p{
+    font-family: tahoma;
+    text-align: center;
+    font-size: 18px;
+}
+
+.Send{
+    color: white;
+    background-color: rgb(65, 177, 65);
+    background: transparent;
+    text-transform: uppercase;
+    border: none;
+    display: block;
+    outline: none;
+    cursor: pointer;
+    width: 425px;
+    margin-top: 20px;
+    padding: 10px 0;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.Container07 {
+    display: block;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.Table01 {
+    float: left;
+    margin-right: 40px;
+}
+
+.Box15 {
+    background-color: white;
+    width: 100vw;
+}
+
+.Inner-Box15 {
+    height: 300px;
+    padding: 50px 100px;
+    background-size: cover;
+}
+
+.Image23 {
+    background-size: cover;
+    background-image: url(../images/footer-img.jpg);
+}
+
+.Table02 {
+    float: left;
+    margin-right: 40px;
+}
+
+.Box15 thead {
+    text-align: left;
+}
+
+.Box15 caption {
+    font-size: 25px;
+    font-family: FFGoodProXCond-Bold;
+}
+
+.Table02 th {
+    font-size: 18px;
+    font-family: FFGoodProXCond-Bold;
+}
+
+.Table01 td, th {
+    color: rgb(255, 255, 255);
+    margin-top: -145px;
+    font-size:  15px;
+    font-family: sans-serif;
+}
+
+.Contact {
+    float: left;
+    margin-right: 40px;
+}
+
+.Contact Span {
+    color: rgb(179, 141, 88);
+    font-size: 15px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.Contact p {
+    color: rgb(233, 213, 213);
+    font-size: 14px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.Contact input {
+    border: none;
+    padding: 5px;
+    font-size: 13px;
+}
+
+.Contact button {
+    background-color: rgb(198, 157, 101);
+    border: none;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.Contact label {
+    color: white;
+    outline: none;
+    display: block;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Contact h2 {
+    color: white;
+    margin-top: 0;
+    font-size: 27px;
+    font-family: FFGoodProXCond-Bold;
+}
+
+.Location {
+    float: left;
+}
+
+.Location span {
+    color: rgb(202, 159, 100);
+    font-size: 20px;
+    font-family: FFGoodProXCond-Bold;
+}
+
+.Location p {
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.Location h2 {
+    color: white;
+    margin-top: 0;
+    font-size: 27px;
+    font-family: FFGoodProXCond-Bold;
+}
+
+.Navigation0 {
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: -40px;
+    margin-bottom: -80px;
+    margin-right: -50px;
+    margin-left: -50px;
+}
+
+.Navigation0 ul li {
+    color: rgb(239, 228, 228);
+    padding-top: 15px;
+    align-items: center;
+    list-style: none;
+    display: inline-block;
+}
+
+.Navigation0 ul a {
+    color: rgb(239, 227, 227);
+    margin: 2px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.Navigation0 h1 {
+    color: rgb(234, 219, 219);
+    font-family: AFFGoodProXCond-Bold;
+}
